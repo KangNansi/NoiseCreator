@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39788a47f68385b45b0a23ecf46fd76b, type: 3}
+  m_Name: Example1
+  m_EditorClassIdentifier: 
+  noises:
+  - noise:
+      m_seed: 1337
+      m_frequency: 64
+      m_interp: 2
+      m_noiseType: 3
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: a
+    strength: 2
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 0.04, y: 1}
+    exageration: 1
+    upColor: {r: 0.9775444, g: 0.97794116, b: 0.9707504, a: 1}
+    downColor: {r: 0.13235295, g: 0, b: 0, a: 1}
+  - noise:
+      m_seed: 1337
+      m_frequency: 64
+      m_interp: 2
+      m_noiseType: 3
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: c
+    strength: 2
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 1, y: 1}
+    exageration: 1
+    upColor: {r: 0.9632353, g: 0.78817266, b: 0.056660898, a: 1}
+    downColor: {r: 0, g: 0, b: 0, a: 1}
+  - noise:
+      m_seed: 3333
+      m_frequency: 64
+      m_interp: 2
+      m_noiseType: 3
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: b
+    strength: 2
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 0.05, y: 1}
+    exageration: 1
+    upColor: {r: 0.6691177, g: 0.40147063, b: 0, a: 1}
+    downColor: {r: 0.08823532, g: 0.031034492, b: 0, a: 1}
+  - noise:
+      m_seed: 1337
+      m_frequency: 32
+      m_interp: 2
+      m_noiseType: 1
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: d
+    strength: 2
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 1, y: 1}
+    exageration: 1
+    upColor: {r: 1, g: 1, b: 1, a: 1}
+    downColor: {r: 0, g: 0, b: 0, a: 1}
+  - noise:
+      m_seed: 1337
+      m_frequency: 32
+      m_interp: 2
+      m_noiseType: 6
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 2
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 2
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: e
+    strength: 4
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 1, y: 1}
+    exageration: 1
+    upColor: {r: 1, g: 1, b: 1, a: 1}
+    downColor: {r: 0, g: 0, b: 0, a: 1}
+  - noise:
+      m_seed: 1337
+      m_frequency: 0.01
+      m_interp: 2
+      m_noiseType: 4
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: 0
+    strength: 1
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 1, y: 1}
+    exageration: 1
+    upColor: {r: 1, g: 1, b: 1, a: 1}
+    downColor: {r: 0, g: 0, b: 0, a: 1}
+  colored: 1
+  useEquation: 1
+  equation: a*e+c*d

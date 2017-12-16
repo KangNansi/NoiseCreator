@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39788a47f68385b45b0a23ecf46fd76b, type: 3}
+  m_Name: sandDune
+  m_EditorClassIdentifier: 
+  noises:
+  - noise:
+      m_seed: 1337
+      m_frequency: 4
+      m_interp: 2
+      m_noiseType: 2
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: a
+    strength: 2
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 1, y: 1}
+    exageration: 1
+    upColor: {r: 1, g: 1, b: 1, a: 1}
+    downColor: {r: 0, g: 0, b: 0, a: 1}
+  - noise:
+      m_seed: 2000
+      m_frequency: 8
+      m_interp: 2
+      m_noiseType: 2
+      m_octaves: 3
+      m_lacunarity: 2
+      m_gain: 0.5
+      m_fractalType: 0
+      m_fractalBounding: 0.5714286
+      m_cellularDistanceFunction: 0
+      m_cellularReturnType: 0
+      m_cellularDistanceIndex0: 0
+      m_cellularDistanceIndex1: 1
+      m_cellularJitter: 0.45
+      m_gradientPerturbAmp: 1
+      m_linearType: 0
+    name: b
+    strength: 1
+    pureStrength: 1
+    invert: 0
+    rotation: 0
+    scale: {x: 1, y: 1}
+    exageration: 1
+    upColor: {r: 1, g: 1, b: 1, a: 1}
+    downColor: {r: 0, g: 0, b: 0, a: 1}
+  colored: 0
+  useEquation: 0
+  equation: a+b
